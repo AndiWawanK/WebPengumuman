@@ -1,0 +1,178 @@
+body {
+  background: url('../img/bg-smkn1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  back
+}
+.block h3{
+  font-weight: 400;
+  /* margin-top: 40px; */
+  float: none;
+}
+.navbar-brand{
+  margin-left: 10px;
+}
+/* .block{
+  float: left;
+} */
+.input-pengumuman{
+  height: 40px;
+  font-size: 17px;
+}
+.btn-kelulusan{
+  width: 100%;
+  background-color: #ffbf0b;
+  border: 1px solid #ffbf0b;
+  /* margin-top: 19px; */
+}
+.btn-kelulusan:hover{
+  background-color: #ffcb0d;
+}
+.btn-download{
+  width: 100%;
+  background-color: #87bf2d;
+}
+.group-kelulusan{
+  margin-left: -5px;
+  height: 37px;
+  margin-top: -4px;
+}
+.input-kelulusan{
+  width: 100px;
+  height: 37px;
+  float: left;
+  margin: 2px 5px;
+}
+.well{
+  margin-top: 20px;
+  background-color: rgba(255,255,255, .8);
+}
+.navbar-default{
+  border-radius: 0px;
+  background-color: #fff;
+
+}
+.block hr{
+  border-color: #bbb;
+}
+.logo-bsnp img{
+  width: 110px;
+  margin-top: 21px;
+}
+.logo-smk img{
+  width: 60px;
+  margin-top: 16px;
+}
+.logo-pemprov img{
+  width: 63px;
+  margin-left: -30px;
+  margin-top: 9px;
+}
+@media only screen and (max-width: 1366px) {
+  .logo-bnsp1{
+    display: none;
+  }
+  .logo-pemprov1{
+    display: none;
+  }
+  .logo-smk1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo-bsnp img{
+    display: none;
+  }
+  .logo-smk img{
+    display: none;
+  }
+  .logo-pemprov img{
+    display: none;
+  }
+  .logo-bnsp1{
+    width: 33%;
+    display: table;
+    float: left;
+  }
+  .logo-pemprov1{
+    width: 33%;
+    display: table;
+    float: left;
+  }
+  .logo-smk1{
+    width: 33%;
+    display: table;
+    /* float: left; */
+  }
+  .logo-bnsp1 img{
+    width: 83px;
+
+  }
+  .logo-pemprov1 img{
+    width: 50px;
+
+  }
+  .logo-smk1 img{
+    width: 50px;
+
+  }
+}
+@media only screen and (max-width: 800px) {
+  .logo-bsnp img{
+    display: none;
+  }
+  .logo-smk img{
+    display: none;
+  }
+  .logo-pemprov img{
+    display: none;
+  }
+}
+.navbar>.container .navbar-brand {
+  margin-left: 20px;
+}
+/* @media (min-width: 768px){
+  .navbar>.container .navbar-brand {
+    margin-left: 12px;
+  }
+} */
+/* ===time-lapse=== */
+.time-lapse{
+  /* height: 500px; */
+}
+.time-lapse h1{
+  font-weight: 400;
+  font-size: 5vw;
+  text-align: center;
+
+}
+.time-lapse h2{
+  font-weight: 400;
+}
+.time-lapse hr{
+  border-color: #bbb;
+}
+.countdown{
+  float: left;
+  padding: 0px 55px;
+  text-align: center;
+}
+.countdown span{
+  font-size: 2vw;
+  text-transform:capitalize;
+}
+.countdown hr{
+  border-color: #000;
+  border-width: 2px;
+}
+.countdown-block{
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .countdown{
+    padding: 0px 15px;
+  }
+}
